@@ -1,8 +1,8 @@
-// app/layout.tsx
+import './styles/globals.css'; 
+import Navbar from './components/Navbar'; 
+import Footer from './components/Footer';
+import ProductGrid from './components/ProductGrid';
 
-import './styles/globals.css'; // Menggunakan alias
-import Navbar from './components/Navbar'; // Menggunakan alias
-import Footer from './components/Footer'; // Menggunakan alias
 
 export const metadata = {
   title: 'My Next.js Website',
@@ -14,8 +14,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <html lang="en">
       <body className="min-h-screen flex flex-col">
         <Navbar />
-        <main className="flex-grow">{children}</main>
+        
+        <ProductGrid /> 
         <Footer />
+        
       </body>
     </html>
   );
