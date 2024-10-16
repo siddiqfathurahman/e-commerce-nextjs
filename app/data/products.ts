@@ -1,4 +1,5 @@
 // data/products.ts
+
 const products = [
   {
     id: 1,
@@ -7,7 +8,7 @@ const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     price: 999000,
     originalPrice: 1200000, 
-    image: "/war.jpg",
+    image: "/sepatu.png",
   },
   {
     id: 2,
@@ -16,7 +17,7 @@ const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     price: 999000,
     originalPrice: 1200000, 
-    image: "/war.jpg",
+    image: "/sepatu.png",
   },
   {
     id: 3,
@@ -25,7 +26,7 @@ const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     price: 999000,
     originalPrice: 1200000, 
-    image: "/war.jpg",
+    image: "/sepatu.png",
   },
   {
     id: 4,
@@ -34,7 +35,7 @@ const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     price: 999000,
     originalPrice: 1200000, 
-    image: "/war.jpg",
+    image: "/sepatu.png",
   },
 ];
 

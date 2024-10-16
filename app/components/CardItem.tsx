@@ -6,7 +6,7 @@ interface ProductProps {
   title: string;
   description: string;
   price: number;
-  originalPrice?: number; // Harga awal (opsional)
+  originalPrice?: number; 
   category: string;
 }
 
@@ -29,7 +29,6 @@ export default function CardItem({
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="text-gray-500 text-sm mb-4 line-clamp-2">{description}</p>
       
-      {/* Bagian Harga */}
       <div className="flex items-center space-x-2 mb-4">
         {originalPrice && (
           <p className="text-gray-400 line-through">Rp. {originalPrice.toLocaleString()}</p>
