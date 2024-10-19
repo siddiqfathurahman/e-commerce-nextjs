@@ -37,6 +37,15 @@ const products = [
     originalPrice: 1200000, 
     image: "/sepatu.png",
   },
+    {
+    id: 5,
+    category: "Lorem ipsum dolor sit amet, consectetur",
+    title: "Sepatu",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    price: 999000,
+    originalPrice: 1200000, 
+    image: "/sepatu.png",
+  },
 ];
 
 export default products;
